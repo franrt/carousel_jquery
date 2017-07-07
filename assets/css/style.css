@@ -1,0 +1,23 @@
+/* 500 * 374 */
+
+body {
+    margin: 0 auto;
+    padding: 0
+}
+
+#title h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: #f02e64;
+}
+
+.wrap {
+    width: 450px;
+    height: 350px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#botones {
+    top: 400px;
+}
