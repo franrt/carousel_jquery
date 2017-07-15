@@ -9,7 +9,7 @@
 #img-slider {
     margin: auto;
     width: 100%;
-    max-width: 370px;
+    max-width: 400px;
     position: relative;
     box-shadow: 0 0 0 10px #fff, 0 15px 50px;
     overflow: hidden;
@@ -21,7 +21,11 @@
     width: 600%;
 }
 
-#slider section {
+.slider {
+    margin-left: -100%;
+}
+
+#slider .slider__section {
     width: 100%;
 }
 
@@ -52,11 +56,13 @@
 }
 
 #btn-prev {
-    left: 400px;
+    right: 350px;
+    font-size: 30px;
 }
 
 #btn-next {
-    right: 400px;
+    left: 350px;
+    font-size: 30px;
 }
 
 #title h1 {
